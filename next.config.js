@@ -1,8 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: 'export',
-  basePath: process.env.NODE_ENV === 'production' ? '/p12_3' : '',
-  assetPrefix: process.env.NODE_ENV === 'production' ? '/p12_3' : '',
+  basePath: process.env.NODE_ENV === 'production' ? '/p12_4' : '',
+  assetPrefix: process.env.NODE_ENV === 'production' ? '/p12_4' : '',
   images: { unoptimized: true },
   trailingSlash: true,
   reactStrictMode: true,
